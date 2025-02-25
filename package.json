@@ -32,6 +32,8 @@
         "js/*.js",
         "js/*.d.ts"
     ],
+    "main": "./js/all.js",
+    "types": "./js/all.d.ts",
     "exports": {
         "./*.json": "./*.json",
         ".": {
