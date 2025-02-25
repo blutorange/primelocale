@@ -1,0 +1,230 @@
+import { Locale } from "./locale.js";
+
+export interface AllLocales {
+  /**
+   * The localized messages for the language ar.
+   */
+  ar: Locale;
+  /**
+   * The localized messages for the language ar_tn.
+   */
+  ar_tn: Locale;
+  /**
+   * The localized messages for the language bg.
+   */
+  bg: Locale;
+  /**
+   * The localized messages for the language bn.
+   */
+  bn: Locale;
+  /**
+   * The localized messages for the language bs.
+   */
+  bs: Locale;
+  /**
+   * The localized messages for the language ca.
+   */
+  ca: Locale;
+  /**
+   * The localized messages for the language ckb.
+   */
+  ckb: Locale;
+  /**
+   * The localized messages for the language cs.
+   */
+  cs: Locale;
+  /**
+   * The localized messages for the language da.
+   */
+  da: Locale;
+  /**
+   * The localized messages for the language de.
+   */
+  de: Locale;
+  /**
+   * The localized messages for the language de_at.
+   */
+  de_at: Locale;
+  /**
+   * The localized messages for the language de_ch.
+   */
+  de_ch: Locale;
+  /**
+   * The localized messages for the language el.
+   */
+  el: Locale;
+  /**
+   * The localized messages for the language en.
+   */
+  en: Locale;
+  /**
+   * The localized messages for the language en_au.
+   */
+  en_au: Locale;
+  /**
+   * The localized messages for the language en_gb.
+   */
+  en_gb: Locale;
+  /**
+   * The localized messages for the language es.
+   */
+  es: Locale;
+  /**
+   * The localized messages for the language fa.
+   */
+  fa: Locale;
+  /**
+   * The localized messages for the language fi.
+   */
+  fi: Locale;
+  /**
+   * The localized messages for the language fr.
+   */
+  fr: Locale;
+  /**
+   * The localized messages for the language he.
+   */
+  he: Locale;
+  /**
+   * The localized messages for the language hi.
+   */
+  hi: Locale;
+  /**
+   * The localized messages for the language hr.
+   */
+  hr: Locale;
+  /**
+   * The localized messages for the language ht.
+   */
+  ht: Locale;
+  /**
+   * The localized messages for the language hu.
+   */
+  hu: Locale;
+  /**
+   * The localized messages for the language id.
+   */
+  id: Locale;
+  /**
+   * The localized messages for the language it.
+   */
+  it: Locale;
+  /**
+   * The localized messages for the language ja.
+   */
+  ja: Locale;
+  /**
+   * The localized messages for the language kk.
+   */
+  kk: Locale;
+  /**
+   * The localized messages for the language km.
+   */
+  km: Locale;
+  /**
+   * The localized messages for the language ko.
+   */
+  ko: Locale;
+  /**
+   * The localized messages for the language ku.
+   */
+  ku: Locale;
+  /**
+   * The localized messages for the language ky.
+   */
+  ky: Locale;
+  /**
+   * The localized messages for the language lt.
+   */
+  lt: Locale;
+  /**
+   * The localized messages for the language lv.
+   */
+  lv: Locale;
+  /**
+   * The localized messages for the language ms.
+   */
+  ms: Locale;
+  /**
+   * The localized messages for the language nb_no.
+   */
+  nb_no: Locale;
+  /**
+   * The localized messages for the language nl.
+   */
+  nl: Locale;
+  /**
+   * The localized messages for the language pl.
+   */
+  pl: Locale;
+  /**
+   * The localized messages for the language pt.
+   */
+  pt: Locale;
+  /**
+   * The localized messages for the language pt_br.
+   */
+  pt_br: Locale;
+  /**
+   * The localized messages for the language ro.
+   */
+  ro: Locale;
+  /**
+   * The localized messages for the language ru.
+   */
+  ru: Locale;
+  /**
+   * The localized messages for the language sk.
+   */
+  sk: Locale;
+  /**
+   * The localized messages for the language sl.
+   */
+  sl: Locale;
+  /**
+   * The localized messages for the language sr_rs.
+   */
+  sr_rs: Locale;
+  /**
+   * The localized messages for the language sv.
+   */
+  sv: Locale;
+  /**
+   * The localized messages for the language th.
+   */
+  th: Locale;
+  /**
+   * The localized messages for the language tl.
+   */
+  tl: Locale;
+  /**
+   * The localized messages for the language tr.
+   */
+  tr: Locale;
+  /**
+   * The localized messages for the language uk.
+   */
+  uk: Locale;
+  /**
+   * The localized messages for the language uz.
+   */
+  uz: Locale;
+  /**
+   * The localized messages for the language vi.
+   */
+  vi: Locale;
+  /**
+   * The localized messages for the language zh_CN.
+   */
+  zh_CN: Locale;
+  /**
+   * The localized messages for the language zh_TW.
+   */
+  zh_TW: Locale;
+}
+
+/**
+ * An object with all messages for all languages.
+ * The key is the language code, the value the messages.
+ */
+export const all: AllLocales;
